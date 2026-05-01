@@ -2,13 +2,13 @@
   "id": "oaicopilot-persist",
   "version": "1.0.0",
   "name": "OAI Compatible Copilot Persistence",
-  "description": "Persist OAI Compatible Copilot (johnny-zhao.oai-compatible-copilot) settings and state across devcontainer rebuilds.",
+  "description": "Persist OAI Compatible Copilot settings, state, and API keys across devcontainer rebuilds.",
   "documentationURL": "https://github.com/cockernutx/oaicopilot-persist",
   "licenseURL": "https://github.com/cockernutx/oaicopilot-persist/blob/main/LICENSE",
   "mounts": [
     {
-      "source": "oaicopilot-globalstorage",
-      "target": "/usr/local/share/oaicopilot-persist/globalStorage",
+      "source": "vscode-globalstorage",
+      "target": "/usr/local/share/vscode-persist/globalStorage",
       "type": "volume"
     },
     {
